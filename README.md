@@ -1,5 +1,6 @@
 Exploit-exercises - fusion
 ==========================
 
-Solutions to [exploit-exercises](http://www.exploit-exercises.com) fusion levels.
+Solutions to [exploit-exercises](http://www.exploit-exercises.com) fusion levels
+(v2.0).
 
