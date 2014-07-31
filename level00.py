@@ -2,6 +2,7 @@
 #
 # http://exploit-exercises.com/fusion/level00
 
+import sys
 import socket
 import struct
 
@@ -33,7 +34,10 @@ def main():
    s.close()
 
 if __name__ == "__main__":
-   HOST = "192.168.1.5"
+   if(len(sys.argv) < 2):
+      print sys.argv[0] + " <IP>"
+      sys.exit(1)
+   HOST = sys.argv[1]
    PORT = 20000
 
    # prints out 'boom goes the dynamite!'
